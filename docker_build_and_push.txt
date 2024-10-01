@@ -1,0 +1,4 @@
+
+docker build --rm --platform linux/amd64 -t yourorg-youraccount.registry.snowflakecomputing.com/video_transcription_db/app_schema/image_repository/transcribe_video:latest .
+docker login yourorg-youraccount.registry.snowflakecomputing.com -u docker
+docker push yourorg-youraccount.registry.snowflakecomputing.com/video_transcription_db/app_schema/image_repository/transcribe_video:latest

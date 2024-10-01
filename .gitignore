@@ -1,0 +1,4 @@
+.env/
+ydata-tvsum50-v1_1/
+whisper/
+__pycache__/
